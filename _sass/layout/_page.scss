@@ -399,3 +399,28 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+.pdf-viewer {
+  margin: 1em 0;
+}
+
+.pdf-viewer__toolbar {
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.pdf-viewer__pages {
+  max-height: 80vh;
+  overflow: auto;
+  border: 1px solid var(--global-border-color);
+
+  canvas {
+    display: block;
+    max-width: none;
+  }
+}
+
+.pdf-viewer__status {
+  margin: 1em;
+}

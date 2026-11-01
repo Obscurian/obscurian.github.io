@@ -1,0 +1,11 @@
+<div class="pdf-viewer" data-src="{{ include.src | relative_url }}">
+  <div class="pdf-viewer__toolbar">
+    <button type="button" class="btn" data-zoom="-0.25" aria-label="Zoom out">&minus;</button>
+    <button type="button" class="btn" data-zoom="0.25" aria-label="Zoom in">+</button>
+    <a href="{{ include.src | relative_url }}" class="btn" target="_blank" rel="noopener">Open PDF</a>
+  </div>
+  <div class="pdf-viewer__pages">
+    <p class="pdf-viewer__status">Loading PDF&hellip;</p>
+  </div>
+</div>
+<script src="{{ '/assets/js/pdf-viewer.js' | relative_url }}" defer></script>

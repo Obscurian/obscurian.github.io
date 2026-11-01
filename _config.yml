@@ -26,7 +26,7 @@ author:
   avatar           : "profile_pic.JPEG"
   name             : "Smayan Nandakumar"
   pronouns         : "he/him"  
-  bio              : "placeholder"
+  bio              : "Quantum error correction · Quantum computing theory"
   location         : 
   employer         : 
   uri              : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : smayan-nandakumar-571a11248 # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -86,6 +86,10 @@ author:
 publication_category:
   preprints:
     title: 'Preprints'
+  completed:
+    title: 'Completed Research'
+  in_progress:
+    title: 'Work in Progress'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -162,6 +166,7 @@ include:
   - _pages
   - files
 exclude:
+  - CLAUDE.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
